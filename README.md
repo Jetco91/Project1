@@ -108,5 +108,5 @@ SSH into the control node and follow the steps below:
 -How do I specify which machine to install the ELK server on versus which to install Filebeat on?_With in the ELK yml file you specify the host you want it installed on. 
 - _Which URL do you navigate to in order to check that the ELK server is running? http://23.99.214.110:5601/app/kibana
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+
 
