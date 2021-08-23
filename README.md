@@ -46,7 +46,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the __Jumpbox___ machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- 174.44.129.183
+- My Personal IP
 
 Machines within the network can only be accessed by __Jumpbox running Ansible_Container__.
 - Jumpbox using ansible.
@@ -56,7 +56,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | Yes                 | 174.44.129.183       |
+| Jump Box | Yes                 | My Personal IP       |
 | Web1     | No                  | Private 10.0.0.4     |
 | Web2     | No                  | Private 10.0.0.4     |                   
 | ELK Sever| No/Yes-Software     | Kibana/ 10.0.0.4     |
